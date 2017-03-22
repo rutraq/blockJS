@@ -1,0 +1,18 @@
+span {
+    width: 10%;
+    box-sizing: border-box;
+    text-align: center;
+    color: #3A40FF;
+    font-size: 12pt;
+    display: inline-block;
+    border: 1px solid #000;
+    background-color: #E63224;
+    padding: 10px;
+    transform-origin: 100% 50%;
+    transition: transform 0.5s ease-out;
+    margin: 10px 0;
+}
+
+span.active {
+    transform: translateX(900%);
+}
